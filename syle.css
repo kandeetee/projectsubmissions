@@ -1,0 +1,123 @@
+
+@charset "UTF-8"
+/* CSS DOCUMENT */
+
+/* NAV BAR INFO*/
+	header {
+		
+	}
+
+	nav {
+		 background-color: #6b6c6d;
+		 width: 99.9%;
+		 border-bottom: 1px solid white;
+		 border-top: 1px solid white;
+		}  	 
+
+	 nav a {
+	 	font-family: "Helvetica", Sans-serif;
+	 	text-decoration: none;
+	 	color: white; 	
+	 	}
+
+	 nav ul {
+	 	list-style-type: none;	
+	 	}
+
+	 nav ul li {
+	 	display: inline;
+	 	margin-top: 0;
+	 	padding-top: 0;
+	 	padding-left: 10px;
+	 	padding-right: 10px;
+	 	border-right: 1px dotted #999;
+	 	}
+
+/* MAIN PAGE INFO*/
+		.homepagebg {
+		background-size: cover;
+	    clear:both;
+	    margin-top: 1em; 	    
+	    background-image: url("images/backgroundtemp.png");
+	    background-repeat: no-repeat;
+	    z-index: 1;
+	  	}
+
+	  	/*.overtext {
+	    font-family: Helvetica, sans-serif;
+	    font-size: 1.2em;
+	    line-height: 1.5em;
+	    color: white;
+	    font-weight: bold;
+	    text-shadow: 1px 2px 1px black;
+	    z-index: 20;
+		}*
+     
+/*TEXT PARAMETERS*/
+    h1, h2, h3, h4, h5, h6 {
+    	margin-left: 50px;
+    	font-weight: normal;
+    	font-family: Helvetica, Sans-serif;
+    	color: white;
+    	}
+
+    h4 {font-size: 120%;
+    	text-decoration: underline;
+		}
+
+    h5 {font-size:100%;}
+    
+
+	p {
+		margin-left: 50px;
+		margin-right:50px;
+		font-family: Helvetica, Sans-serif;
+		color: black;
+		}
+
+	a {
+		font-family: Helvetica, Sans-serif;
+		color: white;
+		}
+
+	a:hover {
+		font-weight: bold;
+	}
+
+	a:visited {
+		color: #000;
+	}
+
+   
+    body {background-color: #6b6c6d;
+    	margin-bottom: 50px
+    	margin-left: 50px;
+    	}
+ 
+ 	iframe {
+ 		margin-left: 50px;
+ 		margin-bottom: 50px;
+ 		}
+
+/* FOOTER INFO*/
+
+    footer {
+    	border-top: 1px solid white;
+	 	margin-top: 0;
+	 	padding-top: 0;
+	 	}
+
+	 footer ul {
+	 	list-style-type: none;	
+	 	}
+
+	 footer ul li {
+	 	display: inline;
+	 	margin-top: 0;
+	 	margin-left: 10px;
+	 	padding-top: 0;
+	 	padding-left: 10px
+	 	padding-right: 10px;
+	 	}
+	 
+  </style>
